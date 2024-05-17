@@ -6,7 +6,6 @@ class Auth::SectionsController < ApplicationController
   def index
     @user=current_user
     @auth_sections = Section.all.sort_by{|s| s.position}.sort_by{|s| s.visible ? 0 : 1 } - Section.where(title: "«Temp Section»")
-    authorize Section.all, policy_class: AuthorizationPolicy
   end
 
   # GET /sections/1 or /sections/1.json
