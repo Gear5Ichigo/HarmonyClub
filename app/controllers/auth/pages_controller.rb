@@ -10,6 +10,7 @@ class Auth::PagesController < ApplicationController
         #@auth_sections = @auth_sections - section
       #end
     #end
+    @auth_pages = Page.all
     authorize Page.all, policy_class: AuthorizationPolicy
   end
 

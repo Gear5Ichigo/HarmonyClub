@@ -8,7 +8,12 @@
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "5.4.3",
     "boostrap": "^2.0.0",
+<<<<<<< HEAD
     "bootstrap": "^5.3.3",
+=======
+    "bootstrap": "^5.2.3",
+    "bootstrapp": "^0.0.0",
+>>>>>>> f76f65dc2a10e115f8189934e319465d094ce675
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "slick-carousel": "^1.8.1",

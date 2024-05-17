@@ -1,3 +1,6 @@
+/config/environments/*
+/config/application.rb
+
 *.rbc
 capybara-*.html
 .rspec
