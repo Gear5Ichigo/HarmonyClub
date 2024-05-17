@@ -883,3 +883,42 @@ h6, .h6 {
     font-size: 1.5rem;
   }
 }
+/* site home stuff */
+#banner {
+  padding-top: 7%;
+  padding-bottom: 10%;
+  background-image: url("Worcester_downtown_1-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-over {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 21%;
+
+  background-image: linear-gradient(360deg, rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.2));
+
+}
+
+.image-over {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+
+#banner > div.col {
+  text-align: center;
+  padding-top: 18%;
+}
+
+#banner img.img-fluid {
+  max-width: 35%;
+}
+
+/*  */
