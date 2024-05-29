@@ -1,5 +1,6 @@
 /config/environments/*
 /config/application.rb
+/config/environments/development.rb
 
 *.rbc
 capybara-*.html
