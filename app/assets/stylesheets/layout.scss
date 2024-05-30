@@ -894,6 +894,10 @@ h6, .h6 {
     width: 60%;
 }
 
+#content:has(#banner) {
+  padding: 0;
+}
+
 #banner {
    background-image: url("Worcester_downtown_1-scaled.jpg");
    width: 100%;
