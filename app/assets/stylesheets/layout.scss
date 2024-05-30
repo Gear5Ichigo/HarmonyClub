@@ -872,10 +872,6 @@ h6, .h6 {
 }
 
 @media (min-width: 992px) {
-  .masthead {
-    padding-top: 4rem;
-    padding-bottom: 6rem;
-  }
   .masthead .masthead-heading {
     font-size: 4rem;
     line-height: 3.5rem;
@@ -894,15 +890,9 @@ h6, .h6 {
     margin-top: 9rem;
 }
 
-// #banner {
-//     display: inline-flex;
-//     min-width: 100.64%;
-//   padding-top: 7%;
-//   padding-bottom: 10%;
-//   background-image: url("Worcester_downtown_1-scaled.jpg");
-//   background-repeat: no-repeat;
-//   background-position: center;
-// }
+#home-content {
+    width: 60%;
+}
 
 #banner {
    background-image: url("Worcester_downtown_1-scaled.jpg");
@@ -920,42 +910,27 @@ h6, .h6 {
   max-width: 35%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+
     #banner [class|="col"] > img.img-fluid {
         max-width: 100%;
     }
+
+    #banner > .row > div[class|="col"] {
+        margin-top: 100%;
+    }
+
+    #home-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .masthead {
+        transform: translate(0%, -40%);
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+    }
 }
-
-// .text-over {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   width: 100%;
-//   height: 100%;
-//   text-align: center;
-//   color: whitesmoke;
-//   padding-top: 21%;
-
-//   background-image: linear-gradient(360deg, rgba(1, 1, 1, 0.9), rgba(1, 1, 1, 0.2));
-
-// }
-
-// .image-over {
-//   position: absolute;
-//   text-align: center;
-//   z-index: 1;
-// }
-
-// // #banner > div.col {
-// //   text-align: center;
-// //   padding-top: 18%;
-// // }
-
-// // #banner img.img-fluid {
-// //   max-width: 35%;
-// // }
-
-/*  */
 
 /* footer */
 #footer {
