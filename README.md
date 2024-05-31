@@ -1,3 +1,5 @@
+#Neh, Jadriel
+
 ### What We Worked On
 - `views/layout/application.html.erb`
 - `views/web/site/home.html.erb`
@@ -5,4 +7,4 @@
 
 ==============================
 
-Jay worked on sections controllers and pages
+Jadriel worked on sections controllers and pages
