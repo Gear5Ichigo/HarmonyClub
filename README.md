@@ -1,4 +1,4 @@
-###Neh, Jadriel
+# Neh, Jadriel
 
 ### What We Worked On
 - `views/layout/application.html.erb`
